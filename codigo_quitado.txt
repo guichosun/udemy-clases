@@ -1,0 +1,40 @@
+div kk para mostrar los resultados de la busqueda
+
+		<div id="kkst-header-container">
+		    <div id="kkst-header">
+		        <div id="kkst-logo">
+		        	<a href="http://www.konakart.com">Logo</a>
+		        </div>
+		        <div id="kkst-search">
+		            <select id="kkst-top-cat-list" class="kk-rounded-corners-left">
+		                <option value="-1">
+		                    <%=getMsg("search.tile.all")%>
+		                </option>
+		                <%for (var i = 0; i < catTree.length; i++) {%>
+		                    <%var cat = catTree[i]; %>
+		                        <option value="<%=cat.id%>">
+		                            <%=cat.name%>
+		                        </option>
+		                        <% } %>
+		            </select>
+		            <input type="text" id="kkst-search-input">
+		            <a id="kkst-search-button" \tclass="kk-rounded-corners-right">
+		                <%=getMsg("search.tile.search")%>
+		            </a>
+		        </div>
+		    </div>
+		</div> 
+
+div para mostrar las categorias o las marcas que hay
+
+<div id="kkcm-main-menu">
+	  AQUI EL CATEGORY
+	  <%for (var i = 0; i < catTree.length; i++) {%>
+	  <%var cat = catTree[i]; %><%var menuClass; %>
+	  <%if (i == catTree.length-1){ %>
+	  <% menuClass = "kkcm-menu-item kk-rounded-corners kkcm-last-child"; %>
+	  <% } else { %>
+	  <% menuClass = "kkcm-menu-item kk-rounded-corners"; %>
+	  <% } %>
+	  <a href=\'#\' id="kkcm-<%=cat.id%>" class="<%=menuClass%>" style="width: auto;"><%=cat.name%></a> 
+	  <% } %> </div>		
