@@ -1,4 +1,4 @@
-Todos en blanco
+cTodos en blanco
 
 
         accountTile: '',

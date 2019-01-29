@@ -3,3 +3,7 @@ accountTile
 prodDetailTile
 manageAddressBookTile:
 onePageCheckoutTile
+loginTile
+registerTile
+forgotPasswordTile
+managePersonalInfoTile
