@@ -8,3 +8,4 @@ registerTile
 forgotPasswordTile
 managePersonalInfoTile
 productNotificationTile
+insertAddressTile
