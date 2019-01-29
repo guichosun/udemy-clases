@@ -1,0 +1,5 @@
+Fragmentos localizados:
+accountTile
+prodDetailTile
+manageAddressBookTile:
+onePageCheckoutTile
