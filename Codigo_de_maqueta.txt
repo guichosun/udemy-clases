@@ -1,0 +1,40 @@
+Codigo de la maqueta
+
++ Fragmento de busqueda
+<div class="barraBusquedaContenedor">
+    <div class="container">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <!-- Inicio logo -->
+            <div class="row">
+               
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="img/logo.png" alt="" class="img-responsive">
+                    </a>    
+                </div>
+                
+                <form class="col-md-5">
+                    <div class="input-group busqueda">                        
+                        <input type="text" class="form-control busquedaInput" placeholder="Busqueda por nombre, número de parte, marca, modelo..." aria-describedby="basic-addon2">
+                        <a href="#" class="input-group-addon iconoBusqueda">
+                            <img src="img/icono30x30.png" alt="">
+                        </a>
+                    </div>
+                </form>
+                <div class="col-md-2 opcionBusqueda">
+                    <a href="#">
+                        <img src="img/icono20x20.png" alt="">
+                        <p>Envío gratuito a la ciudad de toluca</p>
+                    </a>
+                </div>
+                <div class="col-md-2 opcionBusqueda bg-primario">
+                    <a href="#">
+                        <img src="img/icono20x20.png" alt="">
+                        <p>Busca artículos para tu vehiculo</p>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>

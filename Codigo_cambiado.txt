@@ -1,0 +1,2 @@
+Se tradujeron al español las propiedades
+customer.info.prod.notify.prodnots
